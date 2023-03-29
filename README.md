@@ -1,2 +1,2 @@
-# Curso Especialista Spring Rest da Alga Works
+# Curso Especialista Spring Rest
 Primeiras aulas

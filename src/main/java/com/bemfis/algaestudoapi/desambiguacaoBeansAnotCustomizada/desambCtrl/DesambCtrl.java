@@ -1,7 +1,7 @@
-package com.bemfis.algaestudoapi.desambiguacaoBeansCustomizada.desambCtrl;
+package com.bemfis.algaestudoapi.desambiguacaoBeansAnotCustomizada.desambCtrl;
 
-import com.bemfis.algaestudoapi.desambiguacaoBeansCustomizada.desambModels.DesambCliente;
-import com.bemfis.algaestudoapi.desambiguacaoBeansCustomizada.desambServices.DesambAtivarCliente;
+import com.bemfis.algaestudoapi.desambiguacaoBeansAnotCustomizada.desambModels.DesambCliente;
+import com.bemfis.algaestudoapi.desambiguacaoBeansAnotCustomizada.desambServices.DesambAtivarCliente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

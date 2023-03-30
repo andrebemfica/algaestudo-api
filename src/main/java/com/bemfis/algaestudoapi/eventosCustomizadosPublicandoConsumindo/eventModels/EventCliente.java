@@ -1,4 +1,4 @@
-package com.bemfis.algaestudoapi.eventosCustomizados.eventModels;
+package com.bemfis.algaestudoapi.eventosCustomizadosPublicandoConsumindo.eventModels;
 
 public class EventCliente {
     private String nome;

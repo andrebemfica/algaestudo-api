@@ -1,4 +1,4 @@
-package com.bemfis.algaestudoapi.desambiguacaoBeansCustomizada.desambModels;
+package com.bemfis.algaestudoapi.desambiguacaoBeansAnotCustomizada.desambModels;
 
 public class DesambCliente {
     private String nome;

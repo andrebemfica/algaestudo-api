@@ -1,6 +1,6 @@
-package com.bemfis.algaestudoapi.eventosCustomizados.eventServices.anotacoes;
+package com.bemfis.algaestudoapi.eventosCustomizadosPublicandoConsumindo.eventServices.anotacoes;
 
-import com.bemfis.algaestudoapi.eventosCustomizados.eventServices.enuns.EventNivelUrgencia;
+import com.bemfis.algaestudoapi.eventosCustomizadosPublicandoConsumindo.eventServices.enuns.EventNivelUrgencia;
 import org.springframework.beans.factory.annotation.Qualifier;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

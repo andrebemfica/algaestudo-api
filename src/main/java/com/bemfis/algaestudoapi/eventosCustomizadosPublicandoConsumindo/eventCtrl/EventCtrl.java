@@ -1,7 +1,7 @@
-package com.bemfis.algaestudoapi.eventosCustomizados.eventCtrl;
+package com.bemfis.algaestudoapi.eventosCustomizadosPublicandoConsumindo.eventCtrl;
 
-import com.bemfis.algaestudoapi.eventosCustomizados.eventModels.EventCliente;
-import com.bemfis.algaestudoapi.eventosCustomizados.eventServices.EventAtivarCliente;
+import com.bemfis.algaestudoapi.eventosCustomizadosPublicandoConsumindo.eventModels.EventCliente;
+import com.bemfis.algaestudoapi.eventosCustomizadosPublicandoConsumindo.eventServices.EventAtivarCliente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

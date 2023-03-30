@@ -1,6 +1,6 @@
-package com.bemfis.algaestudoapi.desambiguacaoBeansCustomizada.eventServices.anotacoes;
+package com.bemfis.algaestudoapi.desambiguacaoBeansCustomizada.desambServices.anotacoes;
 
-import com.bemfis.algaestudoapi.desambiguacaoBeansCustomizada.eventServices.enuns.NivelUrgencia;
+import com.bemfis.algaestudoapi.desambiguacaoBeansCustomizada.desambServices.enuns.NivelUrgencia;
 import org.springframework.beans.factory.annotation.Qualifier;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

@@ -1,12 +1,12 @@
-package com.bemfis.algaestudoapi.desambiguacaoBeansCustomizada.eventModels;
+package com.bemfis.algaestudoapi.desambiguacaoBeansCustomizada.desambModels;
 
-public class Cliente {
+public class DesambCliente {
     private String nome;
     private String email;
     private String telefone;
     private boolean ativo = false;
 
-    public Cliente(String nome, String email, String telefone) {
+    public DesambCliente(String nome, String email, String telefone) {
         this.nome = nome;
         this.email = email;
         this.telefone = telefone;

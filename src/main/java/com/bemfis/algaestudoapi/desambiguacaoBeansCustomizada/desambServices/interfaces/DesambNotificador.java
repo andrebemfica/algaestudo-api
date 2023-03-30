@@ -1,9 +1,9 @@
-package com.bemfis.algaestudoapi.eventosCustomizados.eventServices.interfaces;
+package com.bemfis.algaestudoapi.desambiguacaoBeansCustomizada.desambServices.interfaces;
 
 import com.bemfis.algaestudoapi.desambiguacaoBeansCustomizada.desambModels.DesambCliente;
 import org.springframework.stereotype.Component;
 
 @Component
-public interface Notificador {
+public interface DesambNotificador {
     public void notificar (DesambCliente desambCliente, String mensagem);
 }

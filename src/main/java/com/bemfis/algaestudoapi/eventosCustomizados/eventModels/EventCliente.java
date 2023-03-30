@@ -15,15 +15,19 @@ public class EventCliente {
     public String getNome() {
         return nome;
     }
+
     public String getEmail() {
         return email;
     }
+
     public String getTelefone() {
         return telefone;
     }
+
     public boolean isAtivo() {
         return ativo;
     }
+
     public void ativar(){
         this.ativo = true;
     }

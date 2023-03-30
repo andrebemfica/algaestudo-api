@@ -1,4 +1,4 @@
-package com.bemfis.algaestudoapi.eventPublisherListener.eventModels;
+package com.bemfis.algaestudoapi.desambiguacaoBeansCustomizada.eventModels;
 
 public class Cliente {
     private String nome;

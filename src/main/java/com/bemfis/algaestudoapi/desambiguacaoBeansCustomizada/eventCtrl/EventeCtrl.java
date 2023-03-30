@@ -1,7 +1,7 @@
-package com.bemfis.algaestudoapi.eventPublisherListener.eventCtrl;
+package com.bemfis.algaestudoapi.desambiguacaoBeansCustomizada.eventCtrl;
 
-import com.bemfis.algaestudoapi.eventPublisherListener.eventModels.Cliente;
-import com.bemfis.algaestudoapi.eventPublisherListener.eventServices.AtivarCliente;
+import com.bemfis.algaestudoapi.desambiguacaoBeansCustomizada.eventModels.Cliente;
+import com.bemfis.algaestudoapi.desambiguacaoBeansCustomizada.eventServices.AtivarCliente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

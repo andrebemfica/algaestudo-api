@@ -11,6 +11,6 @@ public class EventAtivarCliente {
     private ApplicationEventPublisher eventPublisher;
     public void ativar(EventCliente eventCliente){
         eventCliente.ativar();
-        eventPublisher.publishEvent(eventCliente);
+        eventPublisher.publishEvent(new EventClienteAtivado(eventCliente));
     }
 }

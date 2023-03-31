@@ -1,6 +1,6 @@
 package com.bemfis.algaestudoapi.eventosCustomizadosPublicandoConsumindo.eventServices.listener;
 
-import com.bemfis.algaestudoapi.eventosCustomizadosPublicandoConsumindo.eventModels.EventCliente;
+import com.bemfis.algaestudoapi.eventosCustomizadosPublicandoConsumindo.eventServices.EventClienteAtivado;
 import com.bemfis.algaestudoapi.eventosCustomizadosPublicandoConsumindo.eventServices.anotacoes.EventTipoNotificador;
 import com.bemfis.algaestudoapi.eventosCustomizadosPublicandoConsumindo.eventServices.enuns.EventNivelUrgencia;
 import com.bemfis.algaestudoapi.eventosCustomizadosPublicandoConsumindo.eventServices.interfaces.EventNotificador;
@@ -15,7 +15,7 @@ public class ListenerNotificacaoService {
     private EventNotificador eventNotificador;
 
     @EventListener
-    public void clienteAtivadoListener(EventCliente cliente) {
-        eventNotificador.notificar(cliente, "Seu cadastro no sistema está ativo!");
+    public void clienteAtivadoListener(EventClienteAtivado evento) {
+        eventNotificador.notificar(evento.getEventCliente(), "Seu cadastro no sistema está ativo!");
     }
 }
